@@ -23,7 +23,7 @@ export default function Constitutions() {
         {names.map((doc) => (
             <div key={doc} className='ups__resources-constitutions_link_box'>
                 <a href={`/assets/constitutions/${doc}`} target='_blank'>
-                {doc}
+                {doc.replace('ups-constitution-', '').replace('.pdf', '').replaceAll('-','/')}
                 </a>
         </div>
       ))}
