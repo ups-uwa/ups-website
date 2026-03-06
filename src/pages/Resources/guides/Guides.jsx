@@ -15,9 +15,6 @@ export default function Guides() {
             <div>
                 <h2>PHYS1001 Study Guide</h2>
             </div>
-            <div>
-                <h2>Constitution</h2>
-            </div>
         </div>
     </div>
   )

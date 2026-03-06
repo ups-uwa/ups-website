@@ -1,10 +1,10 @@
 .ups__resources-clubroom {
-    display: flex;
+    display: block;
 }
 
 .ups__resources-clubroom_container {
     text-align: left;
-    padding: 5rem 5rem;
+    padding: 0 5rem;
 }
 
 .ups__resources-clubroom_container {
