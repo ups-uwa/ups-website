@@ -1,12 +1,17 @@
 .ups__home-header {
     margin: 0;
-    padding: 20rem 0;
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../../../assets/header.jpg");
+    padding: clamp(8rem, 16vw, 20rem) 0 clamp(4rem, 8vw, 10rem);
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("../../../assets/header.jpg");
       background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+    display: border-box;
+    /* display: flex; */
+    
 }
 
 .ups__home-header h1 {
@@ -16,9 +21,9 @@
 
 .ups__home-header p, i {
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .ups__home-header_container {
-    padding: 0 25rem;
+    padding: 0 10%;
 }

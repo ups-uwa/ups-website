@@ -8,9 +8,15 @@
   --ups-dark: rgb(178,174,226);
 }
 
+html {
+    font-size: clamp(12px, 1.5vw, 18px);
+    margin: 0;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-repeat: no-repeat;
+  margin: 0;
 }
 
 body a:link {
@@ -84,5 +90,3 @@ body a:hover {
               transform-origin: 50% 0%;
     }
   }
-  
-

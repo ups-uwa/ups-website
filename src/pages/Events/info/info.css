@@ -1,16 +1,16 @@
-.ups__home-info {
+.ups__events-info {
     display: flex;
 }
 
-.ups__home-info_container {
+.ups__events-info_container {
     padding: 5rem 10rem;
 }
 
-.ups__home-info_container h1 {
+.ups__events-info_container h1 {
     font-size: 2.5rem;
 }
 
-.ups__home-info_container p {
+.ups__events-info_container p {
     font-size: 1.3rem;
     text-align: left;
 }
