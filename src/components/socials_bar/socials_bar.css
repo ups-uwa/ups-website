@@ -1,7 +1,7 @@
 .ups__home-info_container-icons {
-    margin-top: 3rem;
+    margin-top: 3vh;
     display: flex;        
-  gap: 1.5rem;          
+  gap: 10vw;          
   justify-content: center; 
   align-items: center;    
 }

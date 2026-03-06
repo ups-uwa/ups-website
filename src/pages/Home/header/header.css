@@ -1,6 +1,6 @@
 .ups__home-header {
     margin: 0;
-    padding: 15vw 0;
+    padding: clamp(8rem, 16vw, 20rem) 0 clamp(4rem, 8vw, 10rem);
     background:
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url("../../../assets/header.jpg");
@@ -16,12 +16,12 @@
 
 .ups__home-header h1 {
     color: white;
-    font-size: clamp(1.5rem, 5vw, 4rem);;
+    font-size: 4rem;
 }
 
 .ups__home-header p, i {
     color: white;
-    font-size: clamp(1rem, 3vw, 2rem);
+    font-size: 1rem;
 }
 
 .ups__home-header_container {
