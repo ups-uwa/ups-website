@@ -16,13 +16,6 @@ html {
 
 }
 
-.Sponsors {
-    flex: 1;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   background-repeat: no-repeat;
