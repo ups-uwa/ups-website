@@ -6,11 +6,14 @@ export default function Photos() {
 
   const photoList = [
     "/assets/demos1.jpg",
+    "/assets/freshers1.jpg",
     "/assets/demos2.jpg",
     "/assets/demos4.jpg",
+    "/assets/profpints1.jpg",
     "/assets/astro1.jpg",
     "/assets/demos3.jpg",
     "/assets/tea1.jpg",
+    "/assets/freshers2.jpg",
   ]
 
   return (

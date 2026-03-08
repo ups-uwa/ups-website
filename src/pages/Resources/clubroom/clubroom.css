@@ -3,8 +3,8 @@
 }
 
 .ups__resources-clubroom_container {
-    text-align: left;
-    padding: 0 5rem;
+    
+    padding: 1rem 5rem;
 
     font-size: 1rem;
 }
@@ -24,8 +24,10 @@
 
 .ups__resources-clubroom_container h3 {
     margin: 0.2rem 0;
+    text-align: left;
 }
 
 .ups__resources-clubroom_container p {
     margin: 0.2rem 0;
+    text-align: left;
 }
