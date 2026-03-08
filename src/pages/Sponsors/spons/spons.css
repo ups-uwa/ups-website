@@ -1,0 +1,21 @@
+.ups__sponsors-sponsor-grid {
+    display: block;
+    padding: 2rem 5rem;
+}
+.ups__sponsors-sponsor-grid p {
+    text-align: left;
+}
+
+.ups__sponsors-sponsor-line {
+    display: flex;
+    padding: 2rem 0;
+}
+
+.ups__sponsors-sponsor-line img {
+    width: 21rem;
+    height: auto;
+}
+
+.ups__sponsors-sponsor-line p {
+    padding: 1rem 3rem;
+}

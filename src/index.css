@@ -11,7 +11,7 @@
 }
 
 html {
-    font-size: clamp(12px, 1.4vw, 24px);
+    font-size: clamp(12px, 1.5vw, 24px);
     margin: 0;
 
 }
@@ -34,6 +34,7 @@ body a {
 
 body img {
     border-radius: 0.5rem;
+    display: block;
 }
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;

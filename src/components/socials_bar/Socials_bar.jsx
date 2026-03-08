@@ -15,6 +15,9 @@ export default function Socials_bar() {
         <a href="https://facebook.com/UPSuwa/" target="_blank" rel="noopener">
             <img src="/assets/facebook.svg" alt="Facebook"/>
         </a>
+        <a href="mailto:universityphysicssociety@gmail.com" rel="noopener">
+            <img src="/assets/email.svg" alt="Email"/>
+        </a>
     </div>
   )
 }
