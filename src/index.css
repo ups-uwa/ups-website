@@ -7,7 +7,7 @@
   --ups-color: rgb(198,234,255);
   --ups-dark: rgb(178,174,226);
   --ups-light: rgb(222,235,255);
-  --ups-light-translucent: rgba(222,235,255, 0.75);
+  --ups-light-translucent: rgba(222,235,255, 0.9);
 }
 
 html {

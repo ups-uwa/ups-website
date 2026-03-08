@@ -6,8 +6,8 @@
 
 .ups__home-photos_container-photogrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
-  gap: 4vw;
+  grid-template-columns: repeat(auto-fill, minmax(min(18rem, 100%), 1fr));
+  gap: 3vw;
   width: 100%;            /* important: let grid expand to container width */
   /*max-width: 1200px;      /* optional: limits max width for large screens */
   margin: 0 auto;
@@ -20,18 +20,20 @@
   }
 }
 
-.ups__home-photos_container-photogrid-photo {
+/* .ups__home-photos_container-photogrid-photo {
   width: 100%;
   height: 22rem;
   overflow: hidden;
-  border-radius: 0.5rem;
-}
+  
+} */
 
 .ups__home-photos_container-photogrid-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;       /* crops nicely like Instagram */
-  object-position: center;
+    display: block;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;       /* crops nicely like Instagram */
+    object-position: center;
+    border-radius: 0.5rem;
 }
 
 

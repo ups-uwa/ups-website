@@ -1,5 +1,5 @@
 .ups__socials {
-    margin-top: 3vh;
+    margin-top: 2vh;
     display: flex;        
   gap: 10vw;          
   justify-content: center; 
@@ -7,7 +7,7 @@
 }
 
 .ups__socials img {
-  width: 40px;          /* icon size */
-  height: 40px;
+  width: 2.5rem;          /* icon size */
+  height: 2.5rem;
   transition: transform 0.2s;
 }

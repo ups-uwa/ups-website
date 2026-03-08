@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-image: linear-gradient(to bottom, white, var(--ups-light));
+  background-image: linear-gradient(to bottom, white, var(--ups-color));
   width: 100%;
   box-sizing: border-box;
 }
@@ -87,7 +87,7 @@
     left: 0;
     right: 0;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, var(--ups-light), var(--ups-light-translucent));
+    background-image: linear-gradient(to bottom, var(--ups-color), var(--ups-light-translucent));
     padding: 0 1rem;
     box-sizing: border-box;
   }
