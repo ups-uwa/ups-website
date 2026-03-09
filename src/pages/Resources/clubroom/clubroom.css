@@ -9,21 +9,16 @@
     font-size: 1rem;
 }
 
-.ups__resources-clubroom_placeholder {
-  width: 40%;
-  height: 300px;
-  background-color: grey;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  border-radius: 0.5rem;
+.ups__resources-clubroom_photo {
+  width: 21rem;
+  height: auto;
   float: right;
-  margin: 1rem;
+  margin: 0 1rem;
 }
 
 .ups__resources-clubroom_container h3 {
-    margin: 0.2rem 0;
+    margin-top: 0.75rem;
+    margin-bottom: 0.2rem;
     text-align: left;
 }
 
