@@ -16,7 +16,7 @@ export default function Info() {
                 
                 <p id='socials-para'>To keep up to date and see what events are coming up, follow us on Instagram, Facebook or check the
                     <a href='http://uwastudentguild.com/clubs/university-physics-society#events' target='_blank' rel='noopener'> Guild website</a>. 
-                    TODO:[Review text, esp. if link is visible enough]</p>
+                </p>
             </div>  
         </div>
     </div>

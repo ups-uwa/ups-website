@@ -3,6 +3,7 @@ import {useState, React, useEffect } from 'react'
 import "./info.css"
 
 import Socials_bar from '../../../components/socials_bar/Socials_bar';
+import Signup from '../../../components/signup/Signup';
 
 export default function Info() {
 
@@ -15,13 +16,10 @@ export default function Info() {
                 <p>We offer a wide range of social, educational and professional activities from Cocktail Nights and Ping Pong tournaments to Study Nights and Physics Demonstrations. Come check out our clubroom on the Physics building 2nd floor and follow our socials to stay in the loop on how you can get involved!</p>
             </div>
 
-            {/* Don't know if we want to do a sign up form. Making it secure etc seems difficult */}
-            <div className='ups__home-info_container-signup'>
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSdXBbH7limOVxM2zEMVdjtZ5pKa7uShUvHsCNf82H27INQ0lg/viewform?fbzx=4221658672631148117'>
-                    Sign up for an Annual Membership! Don't know if this actually works.
-                </a>
-            </div>
+
+            <Signup />
             <Socials_bar />
+        
 
             {/* -----Replaced by Socials_bar, kept for reference----- */}
             {/* <div className='ups__home-info_container-icons'>

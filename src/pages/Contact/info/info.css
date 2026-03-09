@@ -1,3 +1,37 @@
-.ups__contact-info_email_container {
-    padding: 1rem;
+.ups__contact-info_links {
+    padding: 1rem 1rem;
+    text-align: left;
+    width: 36rem;
+}
+
+.ups__contact-info_links a{
+    color:gray
+}
+.ups__contact-info_links a:visited{
+    color:darkgray
+}
+.ups__contact-info_links a:hover{
+    color:lightgray
+}
+
+.ups__contact-info-container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ups__contact-info-copied {
+    color: gray;
+}
+
+.ups__contact-info-copied--fade {
+    animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {
+    0%   { opacity: 1; }
+    60%  { opacity: 1; }
+    100% { opacity: 0; }
 }

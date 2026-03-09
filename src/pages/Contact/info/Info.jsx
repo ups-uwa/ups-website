@@ -2,6 +2,8 @@
 import {useState, React, useEffect } from 'react'
 
 import "./info.css"
+import Socials_bar from '../../../components/socials_bar/Socials_bar';
+import Signup from '../../../components/signup/Signup';
 
 export default function Info() {
     const [copied, setCopied] = useState(false);
@@ -9,18 +11,33 @@ export default function Info() {
     const handleCopy = () => {
         navigator.clipboard.writeText('universityphysicssociety@gmail.com');
         setCopied(true);
-        setTimeout(() => setCopied(false), 2000); // reset after 2 seconds
+        setTimeout(() => setCopied(false), 3000);
     }
 
     return (
-        <div>
-            <div className='ups__contact-info_email_container'>
+        <div className='ups__contact-info-container'>
+            
+            <div className='ups__contact-info_links'>
                 <p onClick={handleCopy} style={{cursor: 'pointer'}}>
                     <b>Email</b>: universityphysicssociety@gmail.com
-                    {copied && <span> Copied!</span>}
+                    {copied && (
+                        <span className='ups__contact-info-copied ups__contact-info-copied--fade'>
+                            {' '}Copied!
+                        </span>
+                    )}
+                </p>
+                <p>
+                    <b>Instagram</b>: <a href="https://instagram.com/upsuwa/" target="_blank" rel="noopener">https://instagram.com/upsuwa/</a>
+                </p>
+                <p>
+                    <b>Discord</b>: <a href="https://discord.com/invite/AZZyMqB" target="_blank" rel="noopener">https://discord.com/invite/AZZyMqB</a>
+                </p>
+                <p>
+                    <b>Facebook</b>: <a href="https://facebook.com/UPSuwa/" target="_blank" rel="noopener">https://facebook.com/UPSuwa/</a>
                 </p>
             </div>
-            <p>not sure what we actually want here</p>
+            <Signup />
+            <Socials_bar />
         </div>
     )
 }
