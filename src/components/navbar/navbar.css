@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   margin: 0;
-  padding: 0.5rem 0.8vw;
+  padding: 0.1rem 0.8vw;
+  padding-right: 1rem;
   z-index: 999;
   position: fixed;
   top: 0;
@@ -32,7 +33,7 @@
 }
 
 .emas__navbar-heading img {
-  width: min(5rem, 75px);
+  width: min(6rem, 100px);
   height: auto;
 }
 
@@ -74,7 +75,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .emas__navbar-hamburger {
     display: block;
   }

@@ -16,7 +16,7 @@ export default function Socials_bar() {
             <img src="/assets/facebook.svg" alt="Facebook"/>
         </a>
         <a href="mailto:universityphysicssociety@gmail.com" rel="noopener">
-            <img src="/assets/email.svg" alt="Email"/>
+            <img src="/assets/icon-mail.svg" alt="Email"/>
         </a>
     </div>
   )

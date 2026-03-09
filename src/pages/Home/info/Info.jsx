@@ -16,9 +16,11 @@ export default function Info() {
             </div>
 
             {/* Don't know if we want to do a sign up form. Making it secure etc seems difficult */}
-            {/* <div className='ups__home-info_container-button'>
-                <button>Sign up for an Annual Membership!</button>
-            </div> */}
+            <div className='ups__home-info_container-signup'>
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSdXBbH7limOVxM2zEMVdjtZ5pKa7uShUvHsCNf82H27INQ0lg/viewform?fbzx=4221658672631148117'>
+                    Sign up for an Annual Membership! Don't know if this actually works.
+                </a>
+            </div>
             <Socials_bar />
 
             {/* -----Replaced by Socials_bar, kept for reference----- */}

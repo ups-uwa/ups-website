@@ -1,9 +1,9 @@
 .ups__socials {
-    margin-top: 2vh;
+    margin: 2rem 0;
     display: flex;        
-  gap: 10vw;          
-  justify-content: center; 
-  align-items: center;    
+    gap: 10vw;          
+    justify-content: center; 
+    align-items: center;    
 }
 
 .ups__socials img {
