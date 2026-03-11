@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer'
-import { Guides, Clubroom, Constitutions } from '../Resources'
+import { Constitutions } from '.'
 
 
 export default function Resources() {
@@ -9,7 +9,7 @@ export default function Resources() {
     <div className="ups__resources">
       <Navbar />
       {/* <Guides /> */}
-      <Clubroom />
+      {/* <Clubroom /> */}
       <Constitutions />
       <Footer />
     </div>

@@ -9,9 +9,11 @@ export default function Navbar() {
     const pages = [
         { path: "/", label: "Home" },
         { path: "/Events", label: "Events" },
+        { path: "/Clubroom", label: "Clubroom" },
         { path: "/Our-Sponsors", label: "Our Sponsors" },
-        { path: "/Resources", label: "Resources" },
+        { path: "/Documents", label: "Documents" },
         { path: "/Contact-Us", label: "Contact Us" },
+        
     ];
 
 

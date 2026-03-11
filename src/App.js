@@ -1,7 +1,8 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home, Sponsors, Contact, Events, Resources } from "./pages"
+import { Home, Sponsors, Contact, Events, Documents, Clubroom } from "./pages"
 import ScrollToTop from "./setup/ScrollToTop";
+
 
 function App() {
   return (
@@ -10,10 +11,11 @@ function App() {
         <ScrollToTop>
             <Routes>
               <Route exact path="/" element={<Home />}/>
-              <Route exact path="/Our-Sponsors" element={<Sponsors />}/>    
-              <Route exact path="/Resources" element={<Resources />}/>    
-              <Route exact path="/Events" element={<Events />}/>    
-              <Route exact path="/Contact-Us" element={<Contact />}/>              
+              <Route exact path="/Our-Sponsors" element={<Sponsors />}/>
+              <Route exact path="/Events" element={<Events />}/>
+              <Route exact path="/Contact-Us" element={<Contact />}/>
+              <Route exact path="/Clubroom" element={<Clubroom />}/>
+              <Route exact path="/Documents" element={<Documents />}/>
             </Routes>
         </ScrollToTop>
       </BrowserRouter>

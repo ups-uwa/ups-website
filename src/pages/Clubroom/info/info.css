@@ -1,28 +1,28 @@
-.ups__resources-clubroom {
+.ups__clubroom-info {
     display: block;
 }
 
-.ups__resources-clubroom_container {
+.ups__clubroom-info_container {
     
     padding: 1rem 5rem;
 
     font-size: 1rem;
 }
 
-.ups__resources-clubroom_photo {
+.ups__clubroom-info_photo {
   width: 21rem;
   height: auto;
   float: right;
-  margin: 0 1rem;
+  margin: 0.1rem 1rem;
 }
 
-.ups__resources-clubroom_container h3 {
+.ups__clubroom-info_container h3 {
     margin-top: 0.75rem;
     margin-bottom: 0.2rem;
     text-align: left;
 }
 
-.ups__resources-clubroom_container p {
+.ups__clubroom-info_container p {
     margin: 0.2rem 0;
     text-align: left;
 }
