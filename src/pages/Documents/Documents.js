@@ -8,8 +8,6 @@ export default function Resources() {
     return (
     <div className="ups__resources">
       <Navbar />
-      {/* <Guides /> */}
-      {/* <Clubroom /> */}
       <Constitutions />
       <Footer />
     </div>

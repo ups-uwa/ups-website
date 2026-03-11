@@ -78,7 +78,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
   .emas__navbar-hamburger {
     display: block;
   }

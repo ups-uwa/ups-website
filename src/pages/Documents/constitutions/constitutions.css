@@ -28,3 +28,6 @@
     width: fit-content;
     display: flex;
 }
+.ups__docs-past-container {
+    display: flex;
+}
