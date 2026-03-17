@@ -15,7 +15,7 @@ export default function Constitutions() {
         <div>
             
             <div className='ups__resources-constitutions_link_box'>
-                <a>TBA</a>
+                <a href="/assets/constitutions/ups-constitution-05-10-2023.pdf" target="_blank" rel="noopener noreferrer">TBA</a>
             </div>
         </div>
         <h2>Past Constitutions</h2>

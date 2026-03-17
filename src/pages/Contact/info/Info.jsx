@@ -27,13 +27,13 @@ export default function Info() {
                     )}
                 </p>
                 <p>
-                    <b>Instagram</b>: <a href="https://instagram.com/upsuwa/" target="_blank" rel="noopener">https://instagram.com/upsuwa/</a>
+                    <b>Instagram</b>: <a href="https://instagram.com/upsuwa/" target="_blank" rel="noopener noreferrer">https://instagram.com/upsuwa/</a>
                 </p>
                 <p>
-                    <b>Discord</b>: <a href="https://discord.com/invite/AZZyMqB" target="_blank" rel="noopener">https://discord.com/invite/AZZyMqB</a>
+                    <b>Discord</b>: <a href="https://discord.com/invite/AZZyMqB" target="_blank" rel="noopener noreferrer">https://discord.com/invite/AZZyMqB</a>
                 </p>
                 <p>
-                    <b>Facebook</b>: <a href="https://facebook.com/UPSuwa/" target="_blank" rel="noopener">https://facebook.com/UPSuwa/</a>
+                    <b>Facebook</b>: <a href="https://facebook.com/UPSuwa/" target="_blank" rel="noopener noreferrer">https://facebook.com/UPSuwa/</a>
                 </p>
             </div>
             <Signup />
