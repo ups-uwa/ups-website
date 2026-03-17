@@ -1,7 +1,4 @@
-
-import {useState, React, useEffect } from 'react'
 import "./constitutions.css"
-
 
 const names = [
     "ups-constitution-05-10-2023.pdf",
@@ -26,7 +23,7 @@ export default function Constitutions() {
             
             {names.map((doc) => (
                 <div key={doc} className='ups__resources-constitutions_link_box'>
-                    <a href={`/assets/constitutions/${doc}`} target='_blank'>
+                    <a href={`/assets/constitutions/${doc}`} target='_blank' rel="noopener noreferrer">
                     {doc.replace('ups-constitution-', '').replace('.pdf', '').replaceAll('-','/')}
                     </a>
                 </div>

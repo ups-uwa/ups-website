@@ -1,8 +1,8 @@
 
-import {useState, React, useEffect } from 'react'
+import {useState } from 'react'
 
 import "./info.css"
-import Socials_bar from '../../../components/socials_bar/Socials_bar';
+import SocialsBar from '../../../components/socialsBar/SocialsBar';
 import Signup from '../../../components/signup/Signup';
 
 export default function Info() {
@@ -37,7 +37,7 @@ export default function Info() {
                 </p>
             </div>
             <Signup />
-            <Socials_bar />
+            <SocialsBar />
         </div>
     )
 }

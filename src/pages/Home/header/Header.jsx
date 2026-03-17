@@ -1,5 +1,4 @@
 
-import {useState, React, useEffect } from 'react'
 import "./header.css"
 
 export default function Header() {

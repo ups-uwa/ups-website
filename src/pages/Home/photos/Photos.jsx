@@ -1,8 +1,7 @@
 
-import {useState, React, useEffect } from 'react'
 import "./photos.css"
 
-import Enlargeable_Image from '../../../components/enlargeable_image/Enlargeable_Image';
+import EnlargeableImage from '../../../components/enlargeableImage/EnlargeableImage';
 
 export default function Photos() {
 
@@ -24,7 +23,7 @@ export default function Photos() {
            <div className="ups__home-photos_container-photogrid">
                 {photoList.map((pic) => (
                   <div key={pic} className='ups__home-photos_container-photogrid-photo'>
-                      <Enlargeable_Image src={pic} alt={pic.replace('/assets/', '')}/>
+                      <EnlargeableImage src={pic} alt={pic.replace('/assets/', '')}/>
                   </div>
                 ))}
             </div>

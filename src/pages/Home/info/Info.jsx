@@ -1,8 +1,7 @@
 
-import {useState, React, useEffect } from 'react'
 import "./info.css"
 
-import Socials_bar from '../../../components/socials_bar/Socials_bar';
+import SocialsBar from '../../../components/socialsBar/SocialsBar';
 import Signup from '../../../components/signup/Signup';
 
 export default function Info() {
@@ -18,10 +17,10 @@ export default function Info() {
 
 
             <Signup />
-            <Socials_bar />
+            <SocialsBar />
         
 
-            {/* -----Replaced by Socials_bar, kept for reference----- */}
+            {/* -----Replaced by socialsBar, kept for reference----- */}
             {/* <div className='ups__home-info_container-icons'>
                 <a href="https://instagram.com/upsuwa/" target="_blank" rel="noopener">
                     <img src="/assets/instagram.svg" alt="Instagram"/>

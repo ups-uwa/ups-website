@@ -1,4 +1,3 @@
-import {useState, React, useEffect } from 'react'
 import "./explainer.css"
 
 export default function Explainer() {

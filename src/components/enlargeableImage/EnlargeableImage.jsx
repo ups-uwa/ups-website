@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
-import './enlargeable_image.css'
+import './enlargeableImage.css'
 
-export default function Enlargeable_Image({ src, className, alt, id }) {
+export default function EnlargeableImage({ src, className, alt, id }) {
     const [enlarged, setEnlarged] = useState(false);
     const [lastTap, setLastTap] = useState(0);
 

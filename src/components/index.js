@@ -1,5 +1,5 @@
 export { default as Navbar } from './navbar/Navbar';
-export { default as Socials_bar } from './socials_bar/Socials_bar';
+export { default as SocialsBar } from './socialsBar/SocialsBar';
 export { default as Footer } from './footer/Footer';
 export { default as Signup } from './signup/Signup';
-export { default as Enlargeable_Image } from './enlargeable_image/Enlargeable_Image';
+export { default as EnlargeableImage } from './enlargeableImage/EnlargeableImage';
