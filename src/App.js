@@ -7,7 +7,7 @@ import ScrollToTop from "./setup/ScrollToTop";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/ups-website'>
         <ScrollToTop>
             <Routes>
               <Route exact path="/" element={<Home />}/>
