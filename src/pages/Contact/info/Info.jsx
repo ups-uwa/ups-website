@@ -2,6 +2,8 @@
 import {useState } from 'react'
 
 import "./info.css"
+import config from "../../../assets/config.json"
+
 import SocialsBar from '../../../components/socialsBar/SocialsBar';
 import Signup from '../../../components/signup/Signup';
 
@@ -19,7 +21,7 @@ export default function Info() {
             
             <div className='ups__contact-info_links'>
                 <p onClick={handleCopy} style={{cursor: 'pointer'}}>
-                    <b>Email</b>: universityphysicssociety@gmail.com
+                    <b>Email</b>: {config.email_address}
                     {copied && (
                         <span className='ups__contact-info-copied ups__contact-info-copied--fade'>
                             {' '}Copied!
@@ -27,13 +29,13 @@ export default function Info() {
                     )}
                 </p>
                 <p>
-                    <b>Instagram</b>: <a href="https://instagram.com/upsuwa/" target="_blank" rel="noopener noreferrer">https://instagram.com/upsuwa/</a>
+                    <b>Instagram</b>: <a href={config.insta_url} target="_blank" rel="noopener noreferrer">{config.insta_url}</a>
                 </p>
                 <p>
-                    <b>Discord</b>: <a href="https://discord.com/invite/AZZyMqB" target="_blank" rel="noopener noreferrer">https://discord.com/invite/AZZyMqB</a>
+                    <b>Discord</b>: <a href={config.discord_url} target="_blank" rel="noopener noreferrer">{config.discord_url}</a>
                 </p>
                 <p>
-                    <b>Facebook</b>: <a href="https://facebook.com/UPSuwa/" target="_blank" rel="noopener noreferrer">https://facebook.com/UPSuwa/</a>
+                    <b>Facebook</b>: <a href={config.fb_url} target="_blank" rel="noopener noreferrer">{config.fb_url}</a>
                 </p>
             </div>
             <Signup />

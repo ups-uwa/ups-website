@@ -5,7 +5,7 @@ export default function Signup() {
 
     return (
     <div className='ups__container-signup'>
-        <a href= {config["signup_url"]} target='_blank' rel="noopener noreferrer">
+        <a href= {config.signup_url} target='_blank' rel="noopener noreferrer">
             Sign up for an Annual Membership!
         </a>
     </div>
