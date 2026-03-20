@@ -40,7 +40,7 @@ export default function Navbar() {
     return (
         <div className="ups__navbar">
         <div className='emas__navbar-heading'>
-            <img src={process.env.PUBLIC_URL + "./assets/logo.png"} alt="UPS logo" />
+            <img src={process.env.PUBLIC_URL + "/assets/logo.png"} alt="UPS logo" />
             <h1>U P S</h1>
         </div>
         <div className={`emas__navbar-links ${menuOpen ? 'open' : ''}`}>
