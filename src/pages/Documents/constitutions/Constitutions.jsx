@@ -15,7 +15,7 @@ export default function Constitutions() {
         <div>
             
             <div className='ups__resources-constitutions_link_box'>
-                <a href="/assets/constitutions/ups-constitution-05-10-2023.pdf" target="_blank" rel="noopener noreferrer">TBA</a>
+                <a href={process.env.PUBLIC_URL + "/assets/constitutions/ups-constitution-05-10-2023.pdf"} target="_blank" rel="noopener noreferrer">TBA</a>
             </div>
         </div>
         <h2>Past Constitutions</h2>
@@ -23,7 +23,7 @@ export default function Constitutions() {
             
             {names.map((doc) => (
                 <div key={doc} className='ups__resources-constitutions_link_box'>
-                    <a href={`/assets/constitutions/${doc}`} target='_blank' rel="noopener noreferrer">
+                    <a href={process.env.PUBLIC_URL + "/assets/constitutions/" + doc} target='_blank' rel="noopener noreferrer">
                     {doc.replace('ups-constitution-', '').replace('.pdf', '').replaceAll('-','/')}
                     </a>
                 </div>
