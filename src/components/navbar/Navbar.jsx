@@ -24,7 +24,7 @@ export default function Navbar() {
         <div className='emas__navbar-links_menu'>
             {pages.map((page) => (
                 <div key={page.path} className={`navbar-links-listing ${location.pathname === page.path ? 'active' : ''}`}>
-                    <a href={page.path}>
+                    <a href={process.env.PUBLIC_URL + page.path}>
                     {page.label}
                     </a>
             </div>
