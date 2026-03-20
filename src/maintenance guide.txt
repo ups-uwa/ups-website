@@ -1,0 +1,11 @@
+To change signup form or social media links:
+Log in to Github account: ups-uwa
+Go to usp-website repository https://github.com/ups-uwa/ups-website
+Go to src / assets / config.json
+Click the pencil icon to edit this file
+Update url
+Click "Commit changes..."
+Optional: Change commit message to 'Updated [what you updated here] url'
+Click commit changes
+Wait for website to build and deploy
+Done!

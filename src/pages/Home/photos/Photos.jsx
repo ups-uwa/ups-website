@@ -23,7 +23,7 @@ export default function Photos() {
            <div className="ups__home-photos_container-photogrid">
                 {photoList.map((pic) => (
                   <div key={pic} className='ups__home-photos_container-photogrid-photo'>
-                      <EnlargeableImage src={pic} alt={pic.replace('/assets/', '')}/>
+                      <EnlargeableImage src={process.env.PUBLIC_URL+pic} alt={pic.replace('/assets/', '')}/>
                   </div>
                 ))}
             </div>
