@@ -7,5 +7,5 @@ Update url
 Click "Commit changes..."
 Optional: Change commit message to 'Updated [what you updated here] url'
 Click commit changes
-Wait for website to build and deploy
+Wait about a minute for the website to build and deploy
 Done!

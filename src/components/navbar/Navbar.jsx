@@ -1,7 +1,8 @@
 import { useState } from 'react'
 
+
 import "./navbar.css"
-import { useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
 export default function Navbar() {
 
     const location = useLocation();
@@ -24,9 +25,9 @@ export default function Navbar() {
         <div className='emas__navbar-links_menu'>
             {pages.map((page) => (
                 <div key={page.path} className={`navbar-links-listing ${location.pathname === page.path ? 'active' : ''}`}>
-                    <a href={process.env.PUBLIC_URL + page.path}>
-                    {page.label}
-                    </a>
+                    <Link to={page.path}>
+                        {page.label}
+                    </Link>
             </div>
         ))}
         </div>
