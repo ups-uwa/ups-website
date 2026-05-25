@@ -35,7 +35,6 @@ export default function Navbar() {
         </>
     )
 
-    
 
     return (
         <div className="ups__navbar">

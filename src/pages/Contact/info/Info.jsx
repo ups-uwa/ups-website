@@ -18,7 +18,6 @@ export default function Info() {
 
     return (
         <div className='ups__contact-info-container'>
-            
             <div className='ups__contact-info_links'>
                 <p onClick={handleCopy} style={{cursor: 'pointer'}}>
                     <b>Email</b>: {config.email_address}
@@ -36,6 +35,9 @@ export default function Info() {
                 </p>
                 <p>
                     <b>Facebook</b>: <a href={config.fb_url} target="_blank" rel="noopener noreferrer">{config.fb_url}</a>
+                </p>
+                <p>
+                    <b>Linktree</b>: <a href={config.linktree_url} target="_blank" rel="noopener noreferrer">{config.linktree_url}</a>
                 </p>
             </div>
             <Signup />
